@@ -1,0 +1,12 @@
+{
+    "variations": [
+        {
+            "id": "control",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dignissim fringilla ante sed lacinia. Sed magna urna, ornare in odio quis, consequat semper velit.</p>"
+        },
+        {
+            "id": "test",
+            "content": "<p>Nam iaculis urna diam, sed laoreet tellus ullamcorper vel. Sed sagittis lectus libero, ut gravida sem facilisis vel.</p>"
+        }
+    ]
+}
