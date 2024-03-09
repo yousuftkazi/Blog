@@ -19,8 +19,8 @@ if (!userData) {
         id: generateUserId(),
         variation: assignedVariation,
         signedUp: false,
-        pageView: "0",
-        clickCount: "0"
+        pageView: 0,
+        clickCount: 0
     }
     localStorage.setItem('userData', JSON.stringify(userData))
 }
@@ -31,7 +31,7 @@ trackPageView(userData);
 
 const variation = variations.variations.find(variation => variation.id === userData.variation);
 if (variation) {
-    const img = '<img src="src/sample.jpg" class="content-image" style="display: block; margin-bottom: 20px;">';
+    const img = '<img src="images/sample.jpg" class="content-image" style="display: block; margin-bottom: 20px;">';
     contentDiv.innerHTML = img + variation.content;
 }
 
